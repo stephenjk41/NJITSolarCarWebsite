@@ -6,4 +6,4 @@ git add -A
 echo type git message
 read message
 git commit -m "$message"
-pit push
+git push
