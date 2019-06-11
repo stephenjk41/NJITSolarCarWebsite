@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo Enter source directory (/home/.../.../.../)
+read source
+echo your ucid
+read ucid
+rsync -rz ssh --progress $source $ucid8@afs6.njit.edu:/afs/cad/web/solarcar
