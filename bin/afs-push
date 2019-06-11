@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo Enter source directory (/home/.../.../.../)
+echo Enter source directory ex:/home/.../.../.../
 read source
 echo your ucid
 read ucid
