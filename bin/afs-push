@@ -6,4 +6,4 @@ echo Enter source directory ex:/home/.../.../.../
 read source
 echo your ucid
 read ucid
-rsync -rz ssh --progress $source $ucid@afs6.njit.edu:/afs/cad/web/solarcar
+rsync -rz ssh --progress --exclude '.git' $source $ucid@afs6.njit.edu:/afs/cad/web/solarcar
