@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo your current directory is:
+echo $PWD
 echo Enter source directory ex:/home/.../.../.../
 read source
 echo your ucid
