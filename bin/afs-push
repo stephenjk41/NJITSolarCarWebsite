@@ -1,5 +1,5 @@
 #!/bin/bash
-
+chmod a+x ./bin/afs-push
 echo your current directory is:
 echo $PWD
 echo Enter source directory ex:/home/.../.../.../
